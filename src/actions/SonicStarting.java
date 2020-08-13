@@ -38,6 +38,7 @@ public class SonicStarting extends Action implements Animatable {
     @Override
     public void promoteAnimation() {
         if(spriteNum == SPRITES_NUMBER-1){
+            System.out.println("Finish starting animation");
             stop();
         }else{
             spriteNum++;
